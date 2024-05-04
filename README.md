@@ -86,17 +86,18 @@ The man command is a powerful tool in the Linux operating system that allows use
 Syntax of the man Command:
 The basic syntax of the man command is as follows:
 man [option] [command]
+
 <img width="589" alt="Screenshot 2024-05-04 at 4 46 42 PM" src="https://github.com/sarthidarji128/os-practical/assets/142773841/ee780b89-1e18-4e49-b557-d9f83a870bdc">
 
 
 The most straightforward usage of grep involves searching for a specific pattern within a single file. Here’s the syntax:
 grep pattern file_name
+
 <img width="676" alt="Screenshot 2024-05-04 at 4 50 10 PM" src="https://github.com/sarthidarji128/os-practical/assets/142773841/38685634-7b31-4d7b-8c6d-bf35c7e41119">
 
 
 
 The sed command is a powerful text stream editor in Unix/Linux systems. It allows you to perform various operations on files, such as searching, finding and replacing, insertion, and deletion, all without opening the files directly. Let’s explore some common use cases for sed:
-
 Replacing or Substituting Text: To replace a specific word or pattern in a file, you can use the following syntax:
 
 $ sed 's/unix/linux/' geekfile.txt
