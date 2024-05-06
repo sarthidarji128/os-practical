@@ -101,6 +101,32 @@ fi
 
 
 
+Question 7>Modify the previous script to that it accepts the file or directory name as an argument instead of prompting the user to enter it.
+
+
+
+Answer:
+
+
+filename="1.sh"
+if [ -e "$filename" ]; then
+    if [ -f "$filename" ]; then
+        echo "$filename is a regular file."
+    elif [ -d "$filename" ]; then
+        echo "$filename is a directory."
+    else
+        echo "$filename is another type of file."
+    fi
+
+    ls -l "$filename"
+else
+    echo "File or directory $filename does not exist."
+fi
+
+![Uploading Screenshot 2024-05-06 at 6.07.43 PM.png…]()
+
+
+
 
 
 
