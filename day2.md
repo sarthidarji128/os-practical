@@ -5,9 +5,12 @@ Answer: echo "Shell scripting is a Fun"
 
 
 Question 2> write a shell script for modify the shell script , variable holds the contain of the msg shell script is nice 
-Answer : vi s.sh
-         name="shell script is nice"
-         echo "$name"
+Answer :
+vi s.sh
+
+name="shell script is nice"
+         
+echo "$name"
 
 
          
