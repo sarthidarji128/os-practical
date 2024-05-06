@@ -8,5 +8,8 @@ Question 2> write a shell script for modify the shell script , variable holds th
 Answer : vi s.sh
          name="shell script is nice"
          echo "$name"
+
+
+         
 <img width="545" alt="Screenshot 2024-05-06 at 4 55 57 PM" src="https://github.com/sarthidarji128/os-practical/assets/142773841/8dd0c932-43e4-4c54-b6fb-ccf568b6dd8d">
 
