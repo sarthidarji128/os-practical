@@ -123,7 +123,8 @@ else
     echo "File or directory $filename does not exist."
 fi
 
-![Uploading Screenshot 2024-05-06 at 6.07.43 PM.png…]()
+<img width="433" alt="Screenshot 2024-05-06 at 6 07 43 PM" src="https://github.com/sarthidarji128/os-practical/assets/142773841/dc0e7216-5bba-41a3-9d34-f47f27e095cb">
+
 
 
 
