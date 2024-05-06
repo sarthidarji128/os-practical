@@ -73,6 +73,39 @@ echo
 
 
 
+Question 6>write a shell script that prompts the user for a name of a file or directory and reports if it is a regular file, a directory, or another type of file. Also perform an ls command against the file or directory with the long listing option.
+
+
+Answer :
+
+
+echo "Enter the name of a file or directory:"
+read filename
+
+if [ -e "$filename" ]; then
+    if [ -f "$filename" ]; then
+        echo "$filename is a regular file."
+    elif [ -d "$filename" ]; then
+        echo "$filename is a directory."
+    else
+        echo "$filename is another type of file."
+    fi
+
+    ls -l "$filename"
+else
+    echo "File or directory $filename does not exist."
+fi
+
+
+<img width="577" alt="Screenshot 2024-05-06 at 6 04 57 PM" src="https://github.com/sarthidarji128/os-practical/assets/142773841/e81aa172-a403-49cd-a45a-7b01050d243e">
+
+
+
+
+
+
+
+
 
 
 
