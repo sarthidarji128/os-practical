@@ -30,4 +30,24 @@ echo "This script is running on $host."
 <img width="457" alt="Screenshot 2024-05-06 at 5 07 00 PM" src="https://github.com/sarthidarji128/os-practical/assets/142773841/b79b4311-379a-4869-b273-6d57ec2a9e44">
 
 
+Question 4> Exercise_4 - Write a shell script to check to see if the file “file_path” exists. If it does exist, display “file_path passwords are enabled.” Next, check to see if you can write to the file. If you can, display “You have permissions to edit “file_path.””If you cannot, display “You do NOT have permissions to edit “file_path””
+
+
+
+Answer: 
+
+file="p4.sh"
+echo "$file"
+if [ ! -f "$file" ]; then
+        echo "file does not exist $file"
+else
+        echo "file found $file"
+fi
+
+<img width="554" alt="Screenshot 2024-05-06 at 5 17 06 PM" src="https://github.com/sarthidarji128/os-practical/assets/142773841/9ddbfa30-86c6-4494-a239-5f40f4e9850b">
+
+
+
+
+
 
