@@ -47,6 +47,31 @@ fi
 <img width="554" alt="Screenshot 2024-05-06 at 5 17 06 PM" src="https://github.com/sarthidarji128/os-practical/assets/142773841/9ddbfa30-86c6-4494-a239-5f40f4e9850b">
 
 
+question 5>Write a shell script that displays “man”,”bear”,”pig”,”dog”,”cat”,and “sheep” on the screen with each appearing on a separate line. Try to do this in as few lines as possible.
+
+Answer : 
+
+name="man"
+echo "$name"
+echo
+name="bear"
+echo "$name"
+echo
+name="dog"
+echo "$name"
+echo
+name="cat"
+echo "$name"
+echo
+name="sheep"
+echo "$name"
+echo
+
+
+
+<img width="549" alt="Screenshot 2024-05-06 at 5 52 08 PM" src="https://github.com/sarthidarji128/os-practical/assets/142773841/3670d0c9-b2b4-4d4b-ae5d-4cc241b48d03">
+
+
 
 
 
